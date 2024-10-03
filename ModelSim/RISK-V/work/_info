@@ -1,0 +1,436 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/intis/Documents/Summer Study/FPGA/ModelSim/ARM
+vadder
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1726598730
+!i10b 1
+!s100 D>a]?O_3VUmZ`J?H:e3ED2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IZzl]`I;VW]ff]z9X^Wi[R0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V
+w1726593621
+8C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/adder.sv
+FC:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/adder.sv
+!i122 180
+L0 1 4
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1726598730.000000
+!s107 C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/adder.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+valu
+R0
+Z9 !s110 1726598731
+!i10b 1
+!s100 _fz@CdA_@ORFYhmjeDaRh3
+R2
+I:336baD6Ba0VVWh9l=LSY3
+R3
+S1
+R4
+w1726598186
+8C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/alu.sv
+FC:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/alu.sv
+!i122 186
+L0 1 42
+R5
+r1
+!s85 0
+31
+Z10 !s108 1726598731.000000
+!s107 C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/alu.sv|
+!i113 1
+R7
+R8
+valudec
+R0
+R1
+!i10b 1
+!s100 b^[l8SUnaQ2FL1iA6RbGG3
+R2
+IYbTLhjP6MIbMfVIK]0CG60
+R3
+S1
+R4
+w1726593438
+8C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/aludec.sv
+FC:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/aludec.sv
+!i122 178
+L0 1 23
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/aludec.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/aludec.sv|
+!i113 1
+R7
+R8
+vcontroller
+R0
+R1
+!i10b 1
+!s100 [e=VC9[YMiAa`H>7>nm[32
+R2
+IHC<[?eN<CYj]CIE16a@U?3
+R3
+S1
+R4
+w1726593156
+8C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/controller.sv
+FC:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/controller.sv
+!i122 176
+L0 1 17
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/controller.sv|
+!i113 1
+R7
+R8
+vdatapath
+R0
+R1
+!i10b 1
+!s100 2CYfZ]7]ijZfM;dC[Z4bW2
+R2
+I:CR>[e8V[zF3_nnIXNU0D1
+R3
+S1
+R4
+w1726598725
+8C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/datapath.sv
+FC:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/datapath.sv
+!i122 179
+L0 1 102
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/datapath.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/datapath.sv|
+!i113 1
+R7
+R8
+vdmem
+R0
+R1
+!i10b 1
+!s100 B`_GWjb6O6Kd=I=>1aOkJ2
+R2
+IP:7Qb@W^zzR7jG2]:=`gb2
+R3
+S1
+R4
+w1726592864
+8C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/dmem.sv
+FC:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/dmem.sv
+!i122 174
+Z11 L0 1 8
+R5
+r1
+!s85 0
+31
+Z12 !s108 1726598729.000000
+!s107 C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/dmem.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/dmem.sv|
+!i113 1
+R7
+R8
+vextend
+R0
+R1
+!i10b 1
+!s100 B`m<HKPkGXRB3=bdHFT`E0
+R2
+IH]2RKzUSCZ<Xede9NQ1QO0
+R3
+S1
+R4
+w1726595205
+8C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/extend.sv
+FC:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/extend.sv
+!i122 181
+L0 1 16
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/extend.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/extend.sv|
+!i113 1
+R7
+R8
+vflopenr
+R0
+R1
+!i10b 1
+!s100 T=o`95O_?f7]]B2[[]O;H3
+R2
+I9DDKPbWRQdf1MOzP_V1i00
+R3
+S1
+R4
+w1726593746
+8C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/flopenr.sv
+FC:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/flopenr.sv
+!i122 183
+R11
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/flopenr.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/flopenr.sv|
+!i113 1
+R7
+R8
+vflopr
+R0
+R1
+!i10b 1
+!s100 O[7JFKZPJ7Di;LZ=UJN[N2
+R2
+ITRY=K[Jg]SZ3n=O<j:V6i3
+R3
+S1
+R4
+w1726596411
+8C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/flopr.sv
+FC:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/flopr.sv
+!i122 182
+R11
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/flopr.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/flopr.sv|
+!i113 1
+R7
+R8
+vimem
+R0
+Z13 !s110 1726598729
+!i10b 1
+!s100 DJ^EZ8^E42mRdkg[I_@f<1
+R2
+INhm9dNE8]hd@WAbcY5lV^1
+R3
+S1
+R4
+w1726592843
+8C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/imem.sv
+FC:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/imem.sv
+!i122 173
+L0 1 7
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/imem.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/imem.sv|
+!i113 1
+R7
+R8
+vmaindec
+R0
+R1
+!i10b 1
+!s100 I20m?bFI>QSQCY8bWH1AY2
+R2
+I]m8VE<GNYV]Km4?B7o>Tb3
+R3
+S1
+R4
+w1726593192
+8C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/maindec.sv
+FC:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/maindec.sv
+!i122 177
+L0 1 22
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/maindec.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/maindec.sv|
+!i113 1
+R7
+R8
+vmux2
+R0
+R9
+!i10b 1
+!s100 z[W@h;8OJV8ISY^9aZPL12
+R2
+Io7S@UBZ5QYSo?h<BI82=J1
+R3
+S1
+R4
+w1726597292
+8C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/mux2.sv
+FC:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/mux2.sv
+!i122 184
+Z14 L0 1 6
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/mux2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/mux2.sv|
+!i113 1
+R7
+R8
+vmux3
+R0
+R9
+!i10b 1
+!s100 6;EOWa__SD7EAXlPKF85<2
+R2
+IPE:EkX^oBo_g^g8_I[N401
+R3
+S1
+R4
+w1726596437
+8C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/mux3.sv
+FC:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/mux3.sv
+!i122 185
+R14
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/mux3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/mux3.sv|
+!i113 1
+R7
+R8
+vregfile
+R0
+R9
+!i10b 1
+!s100 lkfSVGcGc3X?2MN=4Gd>N3
+R2
+I1zHJD:DUa`fz^B>?L6aRa2
+R3
+S1
+R4
+w1726596134
+8C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/regfile.sv
+FC:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/regfile.sv
+!i122 187
+L0 1 12
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/regfile.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/regfile.sv|
+!i113 1
+R7
+R8
+vriscvsingle
+R0
+R1
+!i10b 1
+!s100 2;hHn71X9G1<@@9GQ158I2
+R2
+IY`o7B270JGCjBC^zA`9VB0
+R3
+S1
+R4
+w1726593112
+8C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/riscvsingle.sv
+FC:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/riscvsingle.sv
+!i122 175
+L0 1 21
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/riscvsingle.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/riscvsingle.sv|
+!i113 1
+R7
+R8
+vtestbench
+R0
+R13
+!i10b 1
+!s100 63G>gAi]4z33dQ2G^ViVJ1
+R2
+IZg0dhEnZAWW[531LF`zV01
+R3
+S1
+R4
+w1726594812
+8C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/testbench.sv
+FC:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/testbench.sv
+!i122 171
+L0 1 31
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/testbench.sv|
+!i113 1
+R7
+R8
+vtop
+R0
+R13
+!i10b 1
+!s100 DB>fGm2ZoY8<<5Q:oQmL^3
+R2
+I[KRSQ:BNz]XPfWH5[ab;11
+R3
+S1
+R4
+w1726592793
+8C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/top.sv
+FC:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/top.sv
+!i122 172
+L0 1 10
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/intis/Documents/Summer Study/FPGA/ModelSim/RISK-V/top.sv|
+!i113 1
+R7
+R8

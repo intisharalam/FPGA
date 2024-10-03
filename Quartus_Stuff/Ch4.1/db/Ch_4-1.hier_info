@@ -1,0 +1,30 @@
+|sillyfunction_top
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+HEX0[0] << sillyfunction:SF0.y
+HEX0[1] << sillyfunction:SF0.y
+HEX0[2] << sillyfunction:SF0.y
+HEX0[3] << sillyfunction:SF0.y
+HEX0[4] << sillyfunction:SF0.y
+HEX0[5] << sillyfunction:SF0.y
+HEX0[6] << sillyfunction:SF0.y
+
+
+|sillyfunction_top|sillyfunction:SF0
+a => y_bit.IN0
+a => y_bit.IN0
+b => y_bit.IN1
+b => y_bit.IN1
+c => y_bit.IN1
+c => y_bit.IN1
+c => y_bit.IN1
+y[0] <= y_bit.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= <GND>
+y[2] <= <GND>
+y[3] <= y_bit.DB_MAX_OUTPUT_PORT_TYPE
+y[4] <= y_bit.DB_MAX_OUTPUT_PORT_TYPE
+y[5] <= y_bit.DB_MAX_OUTPUT_PORT_TYPE
+y[6] <= <VCC>
+
+

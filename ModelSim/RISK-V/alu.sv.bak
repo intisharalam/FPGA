@@ -1,0 +1,37 @@
+module alu(
+    input  logic [31:0] a,  
+    input  logic [31:0] b, 
+    input  logic [2:0]  alucontrol, 
+    output logic [31:0] result, 
+    output logic [3:0]  flags  // Ensure this is a 4-bit wide port
+);
+
+    logic [31:0] condinvb, sum; 
+    logic        v, c, n, z;     // flags: overflow, carry out, negative, zero 
+    logic        cout;           // carry out of adder 
+    logic        isAddSub;       // true if is an add or subtract operation 
+
+    // Calculation of flags
+    assign flags = {v, c, n, z}; 
+    assign condinvb = alucontrol[0] ? ~b : b; 
+    assign {cout, sum} = a + condinvb + alucontrol[0]; 
+    assign isAddSub = ~alucontrol[1]; 
+
+    always_comb 
+    case (alucontrol) 
+        3'b000: result = sum;                  // add 
+        3'b001: result = sum;                  // subtract 
+        3'b010: result = a & b;                // and 
+        3'b011: result = a | b;                // or 
+        3'b101: result = sum[31] ^ v;          // slt 
+        default: result = 32'bx; 
+    endcase 
+
+    // Flags calculation
+    assign z = (result == 32'b0); 
+    assign n = result[31]; 
+    assign c = (alucontrol[0] ? ~cout : cout) & isAddSub; 
+    assign v = (a[31] == b[31]) && (sum[31] != a[31]);
+
+endmodule
+

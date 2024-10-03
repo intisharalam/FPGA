@@ -1,0 +1,6 @@
+module sillyfunction_top (
+	input logic [3:0] SW,
+	output logic [6:0] HEX0
+);
+
+	sillyfunction SF0 (.out(HEX0), .in(SW[3:0]));

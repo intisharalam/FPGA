@@ -1,0 +1,162 @@
+|CombLogic_top
+SW[0] => A[0].IN2
+SW[1] => A[1].IN2
+SW[2] => A[2].IN2
+SW[3] => A[3].IN2
+SW[4] => B[0].IN2
+SW[5] => B[1].IN2
+SW[6] => B[2].IN2
+SW[7] => B[3].IN2
+SW[8] => Cin.IN2
+SW[9] => ~NO_FANOUT~
+HEX0[0] <= hexto7segment:HEX_A.seg
+HEX0[1] <= hexto7segment:HEX_A.seg
+HEX0[2] <= hexto7segment:HEX_A.seg
+HEX0[3] <= hexto7segment:HEX_A.seg
+HEX0[4] <= hexto7segment:HEX_A.seg
+HEX0[5] <= hexto7segment:HEX_A.seg
+HEX0[6] <= hexto7segment:HEX_A.seg
+HEX1[0] <= hexto7segment:HEX_B.seg
+HEX1[1] <= hexto7segment:HEX_B.seg
+HEX1[2] <= hexto7segment:HEX_B.seg
+HEX1[3] <= hexto7segment:HEX_B.seg
+HEX1[4] <= hexto7segment:HEX_B.seg
+HEX1[5] <= hexto7segment:HEX_B.seg
+HEX1[6] <= hexto7segment:HEX_B.seg
+HEX2[0] <= hexto7segment:HEX_Cin.seg
+HEX2[1] <= hexto7segment:HEX_Cin.seg
+HEX2[2] <= hexto7segment:HEX_Cin.seg
+HEX2[3] <= hexto7segment:HEX_Cin.seg
+HEX2[4] <= hexto7segment:HEX_Cin.seg
+HEX2[5] <= hexto7segment:HEX_Cin.seg
+HEX2[6] <= hexto7segment:HEX_Cin.seg
+HEX3[0] <= hexto7segment:HEX_S.seg
+HEX3[1] <= hexto7segment:HEX_S.seg
+HEX3[2] <= hexto7segment:HEX_S.seg
+HEX3[3] <= hexto7segment:HEX_S.seg
+HEX3[4] <= hexto7segment:HEX_S.seg
+HEX3[5] <= hexto7segment:HEX_S.seg
+HEX3[6] <= hexto7segment:HEX_S.seg
+HEX4[0] <= hexto7segment:HEX_Cout.seg
+HEX4[1] <= hexto7segment:HEX_Cout.seg
+HEX4[2] <= hexto7segment:HEX_Cout.seg
+HEX4[3] <= hexto7segment:HEX_Cout.seg
+HEX4[4] <= hexto7segment:HEX_Cout.seg
+HEX4[5] <= hexto7segment:HEX_Cout.seg
+HEX4[6] <= hexto7segment:HEX_Cout.seg
+
+
+|CombLogic_top|fulladder:full_adder_block[0].fa
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CombLogic_top|fulladder:full_adder_block[1].fa
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CombLogic_top|fulladder:full_adder_block[2].fa
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CombLogic_top|fulladder:full_adder_block[3].fa
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CombLogic_top|hexto7segment:HEX_A
+binary_in[0] => Decoder0.IN3
+binary_in[1] => Decoder0.IN2
+binary_in[2] => Decoder0.IN1
+binary_in[3] => Decoder0.IN0
+seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CombLogic_top|hexto7segment:HEX_B
+binary_in[0] => Decoder0.IN3
+binary_in[1] => Decoder0.IN2
+binary_in[2] => Decoder0.IN1
+binary_in[3] => Decoder0.IN0
+seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CombLogic_top|hexto7segment:HEX_Cin
+binary_in[0] => Decoder0.IN3
+binary_in[1] => Decoder0.IN2
+binary_in[2] => Decoder0.IN1
+binary_in[3] => Decoder0.IN0
+seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CombLogic_top|hexto7segment:HEX_S
+binary_in[0] => Decoder0.IN3
+binary_in[1] => Decoder0.IN2
+binary_in[2] => Decoder0.IN1
+binary_in[3] => Decoder0.IN0
+seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CombLogic_top|hexto7segment:HEX_Cout
+binary_in[0] => Decoder0.IN3
+binary_in[1] => Decoder0.IN2
+binary_in[2] => Decoder0.IN1
+binary_in[3] => Decoder0.IN0
+seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
